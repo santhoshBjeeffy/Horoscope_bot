@@ -1,0 +1,36 @@
+{
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.fallback.FallbackPolicy",
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ],
+  "max_histories": [
+    null,
+    2,
+    2
+  ],
+  "python": "3.5.5",
+  "rasa_core": "0.11.1",
+  "action_fingerprints": {
+    "utter_subscribe": {
+      "slots": []
+    },
+    "get_todays_horoscope": {
+      "slots": [
+        "horoscope_sign"
+      ]
+    },
+    "action_listen": {
+      "slots": [
+        "horoscope_sign",
+        "subscribe"
+      ]
+    },
+    "subscribe_user": {
+      "slots": [
+        "subscribe"
+      ]
+    }
+  }
+}

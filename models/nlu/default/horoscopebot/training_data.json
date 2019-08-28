@@ -1,0 +1,408 @@
+{
+  "rasa_nlu_data": {
+    "entity_synonyms": [],
+    "common_examples": [
+      {
+        "text": "Hello",
+        "intent": "greeting"
+      },
+      {
+        "text": "I want to know my Horoscope",
+        "intent": "get_horoscope"
+      },
+      {
+        "text": "Can you please tell me my horoscope?",
+        "intent": "get_horoscope"
+      },
+      {
+        "text": "Please subscribe me",
+        "intent": "subscription"
+      },
+      {
+        "text": "Hi",
+        "intent": "greeting"
+      },
+      {
+        "text": "Hello horoscopebot",
+        "intent": "greeting"
+      },
+      {
+        "text": "hello bot",
+        "intent": "greeting"
+      },
+      {
+        "text": "hi there",
+        "intent": "greeting"
+      },
+      {
+        "text": "bonjour",
+        "intent": "greeting"
+      },
+      {
+        "text": "Tell me my horoscope please",
+        "intent": "get_horoscope"
+      },
+      {
+        "text": "What does my horoscope say?",
+        "intent": "get_horoscope"
+      },
+      {
+        "text": "Can you tell me my horoscope?",
+        "intent": "get_horoscope"
+      },
+      {
+        "text": "What's today's horoscope?",
+        "intent": "get_horoscope"
+      },
+      {
+        "text": "I would like to know my horoscope for today",
+        "intent": "get_horoscope"
+      },
+      {
+        "entities": [
+          {
+            "value": "12",
+            "start": 0,
+            "end": 2,
+            "entity": "DD"
+          },
+          {
+            "value": "12",
+            "start": 3,
+            "end": 5,
+            "entity": "MM"
+          }
+        ],
+        "intent": "dob_intent",
+        "text": "12-12"
+      },
+      {
+        "entities": [
+          {
+            "value": "08",
+            "start": 0,
+            "end": 2,
+            "entity": "DD"
+          },
+          {
+            "value": "01",
+            "start": 3,
+            "end": 5,
+            "entity": "MM"
+          }
+        ],
+        "intent": "dob_intent",
+        "text": "08-01"
+      },
+      {
+        "entities": [
+          {
+            "value": "01",
+            "start": 0,
+            "end": 2,
+            "entity": "DD"
+          },
+          {
+            "value": "01",
+            "start": 3,
+            "end": 5,
+            "entity": "MM"
+          }
+        ],
+        "intent": "dob_intent",
+        "text": "01-01"
+      },
+      {
+        "entities": [
+          {
+            "value": "15",
+            "start": 0,
+            "end": 2,
+            "entity": "DD"
+          },
+          {
+            "value": "08",
+            "start": 3,
+            "end": 5,
+            "entity": "MM"
+          }
+        ],
+        "intent": "dob_intent",
+        "text": "15-08"
+      },
+      {
+        "entities": [
+          {
+            "value": "19",
+            "start": 0,
+            "end": 2,
+            "entity": "DD"
+          },
+          {
+            "value": "01",
+            "start": 3,
+            "end": 5,
+            "entity": "MM"
+          }
+        ],
+        "intent": "dob_intent",
+        "text": "19-01"
+      },
+      {
+        "entities": [
+          {
+            "value": "28",
+            "start": 0,
+            "end": 2,
+            "entity": "DD"
+          },
+          {
+            "value": "02",
+            "start": 3,
+            "end": 5,
+            "entity": "MM"
+          }
+        ],
+        "intent": "dob_intent",
+        "text": "28-02"
+      },
+      {
+        "entities": [
+          {
+            "value": "True",
+            "start": 7,
+            "end": 16,
+            "entity": "subscribe"
+          }
+        ],
+        "intent": "subscription",
+        "text": "please subscribe me"
+      },
+      {
+        "entities": [
+          {
+            "value": "True",
+            "start": 4,
+            "end": 13,
+            "entity": "subscribe"
+          }
+        ],
+        "intent": "subscription",
+        "text": "yes subscribe"
+      },
+      {
+        "entities": [
+          {
+            "value": "True",
+            "start": 0,
+            "end": 9,
+            "entity": "subscribe"
+          }
+        ],
+        "intent": "subscription",
+        "text": "subscribe"
+      },
+      {
+        "entities": [
+          {
+            "value": "True",
+            "start": 0,
+            "end": 9,
+            "entity": "subscribe"
+          }
+        ],
+        "intent": "subscription",
+        "text": "subscribe me horoscopebot"
+      },
+      {
+        "entities": [
+          {
+            "value": "True",
+            "start": 0,
+            "end": 9,
+            "entity": "subscribe"
+          }
+        ],
+        "intent": "subscription",
+        "text": "subscribe me please"
+      },
+      {
+        "entities": [
+          {
+            "value": "Capricorn",
+            "start": 26,
+            "end": 35,
+            "entity": "horoscope_sign"
+          }
+        ],
+        "intent": "get_horoscope",
+        "text": "what is the horoscope for Capricorn?"
+      },
+      {
+        "entities": [
+          {
+            "value": "Gemini",
+            "start": 26,
+            "end": 32,
+            "entity": "horoscope_sign"
+          }
+        ],
+        "intent": "get_horoscope",
+        "text": "tell me the horoscope for Gemini"
+      },
+      {
+        "entities": [
+          {
+            "value": "Aries",
+            "start": 14,
+            "end": 19,
+            "entity": "horoscope_sign"
+          }
+        ],
+        "intent": "get_horoscope",
+        "text": "horoscope for Aries"
+      },
+      {
+        "entities": [
+          {
+            "value": "Leo",
+            "start": 0,
+            "end": 3,
+            "entity": "horoscope_sign"
+          }
+        ],
+        "intent": "get_horoscope",
+        "text": "Leo's today's horoscope"
+      },
+      {
+        "entities": [
+          {
+            "value": "Sagittarius",
+            "start": 25,
+            "end": 36,
+            "entity": "horoscope_sign"
+          }
+        ],
+        "intent": "get_horoscope",
+        "text": "what's the horoscope for Sagittarius"
+      },
+      {
+        "entities": [
+          {
+            "value": "Scorpio",
+            "start": 26,
+            "end": 33,
+            "entity": "horoscope_sign"
+          }
+        ],
+        "intent": "get_horoscope",
+        "text": "What is the horoscope for Scorpio today?"
+      },
+      {
+        "entities": [
+          {
+            "value": "Aquarius",
+            "start": 25,
+            "end": 33,
+            "entity": "horoscope_sign"
+          }
+        ],
+        "intent": "get_horoscope",
+        "text": "what's the horoscope for Aquarius?"
+      },
+      {
+        "entities": [
+          {
+            "value": "False",
+            "start": 0,
+            "end": 11,
+            "entity": "subscribe"
+          }
+        ],
+        "intent": "subscription",
+        "text": "unsubscribe me"
+      },
+      {
+        "entities": [
+          {
+            "value": "False",
+            "start": 0,
+            "end": 11,
+            "entity": "subscribe"
+          }
+        ],
+        "intent": "subscription",
+        "text": "unsubscribe"
+      },
+      {
+        "entities": [
+          {
+            "value": "Capricorn",
+            "start": 0,
+            "end": 9,
+            "entity": "horoscope_sign"
+          }
+        ],
+        "intent": "get_horoscope",
+        "text": "Capricorn"
+      },
+      {
+        "entities": [
+          {
+            "value": "Aries",
+            "start": 0,
+            "end": 5,
+            "entity": "horoscope_sign"
+          }
+        ],
+        "intent": "get_horoscope",
+        "text": "Aries"
+      },
+      {
+        "entities": [
+          {
+            "value": "Cancer",
+            "start": 21,
+            "end": 27,
+            "entity": "horoscope_sign"
+          }
+        ],
+        "intent": "get_horoscope",
+        "text": "My horoscope sign is Cancer"
+      },
+      {
+        "entities": [
+          {
+            "value": "sagittarius",
+            "start": 0,
+            "end": 11,
+            "entity": "horoscope_sign"
+          }
+        ],
+        "intent": "get_horoscope",
+        "text": "sagittarius"
+      },
+      {
+        "text": "What is my horoscope?",
+        "intent": "get_horoscope"
+      },
+      {
+        "entities": [
+          {
+            "value": "Virgo",
+            "start": 0,
+            "end": 5,
+            "entity": "horoscope_sign"
+          }
+        ],
+        "intent": "get_horoscope",
+        "text": "Virgo is my horoscope sign"
+      },
+      {
+        "text": "Hi there!",
+        "intent": "greeting"
+      }
+    ],
+    "regex_features": []
+  }
+}
